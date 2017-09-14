@@ -1,0 +1,17 @@
+{
+  "name": "js-automato",
+  "author": "Jean Bauer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js dados/entrada.txt dados/saida.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeanbauer/compiladores"
+  },
+  "license": "GPL-3.0",
+  "devDependencies": {
+  }
+}
