@@ -7,7 +7,9 @@ const response = (inputPath, outputPath) => ({
   'outputFile': outputPath && readFileSync(outputPath, 'utf-8')
 });
 
-new Promise((resolve, reject) => {
+const p = new Promise((resolve, reject) => {
   if (!inputPath) reject('Informe o caminho do arquivo de teste');
   resolve(response(inputPath, outputPath));
 });
+
+module.exports = p;
